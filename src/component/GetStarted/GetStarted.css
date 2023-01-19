@@ -1,0 +1,83 @@
+@import url(./../Component.css);
+.GetStarted{
+    background-color: var(--Bg-clr);
+    height: var(--height);
+    width: var(--width);
+}
+.GetStarted_inner{
+    padding:50px 20px;
+    padding-bottom: 0px;
+    height: 90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.GetStarted_inner_Top h5{
+    margin: 0px;
+    font-family: var(--font);
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+    font-style: normal;
+font-weight: 400;
+
+}
+.GetStarted_inner_Top h5 span{
+    color: var( --primery-clr);
+}
+.GetStarted_inner_Top h1{
+    font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+color: white;
+margin-bottom: 10px;
+margin-top: 50px;
+
+}
+.GetStarted_inner_Top h1 span{
+    color: var(--primery-clr);
+}
+.GetStarted_inner_Top p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: white;
+}
+
+#LogIn{
+    background-color: var(--primery-clr);
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+
+    width: 335px;
+    height: 40px;
+    font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+border-radius: 20px;
+}
+#Regester{
+    background-color: var(--Bg-clr);
+    border: 2px solid var(--primery-clr);
+    color: var(--primery-clr);
+
+    width: 335px;
+    height: 40px;
+    font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+border-radius: 20px;
+}

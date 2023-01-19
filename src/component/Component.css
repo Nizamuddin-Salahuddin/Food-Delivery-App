@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --height:100vh;
+    --width:375px;
+    --Bg-clr:#2D2D2D;
+    --primery-clr:#2FDBBC;
+    --secoundry-clr:#F99928;
+
+    --font:'Bebas Neue';
+}

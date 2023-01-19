@@ -1,0 +1,134 @@
+@import url("./../Component.css");
+
+.Home{
+    background-color: var(--Bg-clr);
+    margin: 0px;
+    padding-top:30px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    
+}
+.Home_inner{
+    display: flex;
+    flex-direction: column;
+}
+.Home_inner_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.Home_inner_head span{
+color: var(--primery-clr);
+}
+.Home_inner_head h3{
+    margin-top: 0px;
+}
+.Home_inner_offer{
+font-weight: lighter;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    background-color: var( --primery-clr);
+    border-radius:10px ;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    height: 130px;
+    color:white ;
+    
+}
+.Home_inner_offer img{
+    /* position: relative;
+    left: 150px;
+    top:-70px */
+    float: right;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top:-40px;
+    right:-20px;
+}
+.Home_inner_offer span{
+    color:var(--Bg-clr) ;
+    font-size: 36px;
+
+}
+.Home_inner_offer p{
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.Home_inner_offer h2{
+color: var(--Bg-clr);
+margin-top: 0px;
+float: left;
+}
+.Home_inner_offer h3{
+    margin: 10px 0px;
+}
+.Home_inner_Recommended_item{
+    display: flex;
+    overflow:auto;
+    
+}
+.Home_inner_Recommended h5{
+    color: white;
+    margin-left: 0px;
+    }
+
+.Home_inner_Recommended_item_1{
+    display: block;
+    width: 157px;
+    height: 230px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.Home_inner_Recommended_item_1 img{
+    height: 157px;
+    width: 157 px;
+    border-radius: 10px;
+}
+.Home_inner_Recommended_item_1 h5{
+    color: var(--Bg-clr);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.Home_inner_Recommended_item_1_Price{
+    display: flex;
+    justify-content: space-between;
+}
+.Home_inner_Recommended_item_1_Price img{
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+    
+
+}
+.Home_inner_Recommended_item_1_Price h5{
+    color: var(--primery-clr);
+}
+.Home_inner_Restaurants{
+    display: flex;
+    overflow-x: auto;
+    justify-content: start;
+    overflow-y: hidden;
+    
+    height: 100px;
+}
+
+.Home_inner_Restaurants > div{
+    height: 77px;
+    width: 72px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.Home_inner_Restaurants img{
+    height: 110px;
+    width: 100px;
+}
+
